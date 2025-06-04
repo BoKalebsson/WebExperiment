@@ -1,0 +1,60 @@
+/* Grundinställningar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: #3baea0;
+  border-bottom: 2px solid #ddd;
+  font-family: Verdana;
+}
+
+/* Logotyp */
+.logo {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navigationsmeny */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  background-color: #000000;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main-innehåll */
+main {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #118a7e;
+  padding: 15px;
+  border-top: 2px solid #ddd;
+  font-size: 14px;
+}
